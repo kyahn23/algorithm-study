@@ -5,7 +5,7 @@
  */
 var strStr = function (haystack) {
   // haystack.trim().split(" ").pop().length
-  console.log(haystack.trim());
+  console.log(haystack.trim().split(" ").pop().length);
 };
 
 strStr("luffy is still joyboy");

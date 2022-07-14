@@ -5,10 +5,8 @@
  */
 var removeElement = function (nums, val) {
   while (nums.includes(val)) {
-    console.log(nums);
     nums.splice(nums.indexOf(val), 1);
   }
-  console.log(nums);
   console.log(nums.length);
 };
 

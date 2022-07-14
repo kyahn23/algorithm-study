@@ -10,7 +10,7 @@ var removeDuplicates = function (nums) {
     }
   }
 
-  console.log(nums.length);
+  return nums.length;
 };
 
 removeDuplicates([1, 1, 2]);
